@@ -52,7 +52,8 @@ google_analytics:
   id: # fill in your Google Analytics ID
 
 goatcounter:
-  id: # fill in your Goatcounter ID
+  id: <script data-goatcounter="https://brumblebee.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 
 # Prefer color scheme setting.
 #
@@ -65,17 +66,18 @@ goatcounter:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light | dark]
+theme_mode: dark # [light | dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+
+img_cdn: 
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: '/assests/thehive_logo.png'
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
